@@ -10,9 +10,9 @@
 ![Tests](https://img.shields.io/badge/Tests-25%20passing-111827?style=for-the-badge)
 ![License](https://img.shields.io/badge/License-MIT-f59e0b?style=for-the-badge)
 
-**AI & Automation** · **Repo 37/50** · **No backend. No login. Client data stays local.**
+**AI & Automation** · **No backend. No login. Client data stays local.**
 
-[Live app](https://volta-npo.github.io/37-multilingual-faq-builder/) · [Report an issue](https://github.com/volta-npo/37-multilingual-faq-builder/issues) · [Volta](https://voltanpo.org)
+[Live app](https://volta-npo.github.io/multilingual-faq-builder/) · [Report an issue](https://github.com/volta-npo/multilingual-faq-builder/issues) · [Volta](https://voltanpo.org)
 
 </div>
 
@@ -101,6 +101,16 @@ sequenceDiagram
 
 ---
 
+## 🟦 TypeScript-first
+
+This repository is authored in **TypeScript**. The checked-in JavaScript files are compiled artifacts so the project can run directly on GitHub Pages without a build server.
+
+- Source: `src/**/*.ts` and `test/**/*.ts`
+- Build: `npm run build`
+- Runtime artifacts: `src/**/*.js` for static hosting
+
+---
+
 ## 🚀 Features
 
 | Area | What ships in v3 |
@@ -157,8 +167,9 @@ sequenceDiagram
 ## 🛠️ Quick start
 
 ```bash
-git clone https://github.com/volta-npo/37-multilingual-faq-builder.git
+git clone https://github.com/volta-npo/multilingual-faq-builder.git
 cd 37-multilingual-faq-builder
+npm install
 npm test
 npm start
 ```
