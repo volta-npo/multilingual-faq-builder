@@ -1,6 +1,6 @@
 export const v3 = {
   "productName": "Multilingual FAQ Builder",
-  "productTier": "v3-production",
+  "productTier": "release",
   "category": "AI & Automation",
   "acceptance": [
     "no external AI by default",
@@ -14,7 +14,7 @@ export const v3 = {
     "Local autosave with no backend dependency",
     "JSON production bundle export/import",
     "CSV operational table export",
-    "Markdown production certification export",
+    "Markdown release certification export",
     "Print-ready handoff and release packet",
     "Integrity hash for release evidence"
   ],
@@ -53,7 +53,7 @@ export const v3 = {
     "Keyboard-accessible controls present",
     "Owner/mentor review gates represented",
     "Evidence required for launch-ready claims",
-    "Production certification hash generated",
+    "Release certification hash generated",
     "Translation Coverage reaches production threshold",
     "Review Safety is documented with evidence",
     "Glossary Consistency has no unresolved blocker",
