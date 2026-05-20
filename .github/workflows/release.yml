@@ -24,7 +24,7 @@ jobs:
       - name: Package release artifact
         run: tar --exclude=.git --exclude=node_modules -czf multilingual-faq-builder-release.tar.gz .
       - name: Upload artifact
-        uses: actions/upload-artifact@v4
+        uses: actions/upload-artifact@v7
         with:
           name: multilingual-faq-builder-release
           path: multilingual-faq-builder-release.tar.gz
